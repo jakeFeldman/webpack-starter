@@ -235,9 +235,6 @@ module.exports = (env) => {
                 uglifyOptions: {
                     ecma: 8,
                     parallel: true,
-                    mangle: {
-                        safari10: true,
-                    },
                     output: {
                         comments: false,
                         ascii_only: true, // eslint-disable-line
